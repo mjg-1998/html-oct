@@ -1,0 +1,103 @@
+.card {
+    width: 22rem;
+    display: inline-block;
+    -webkit-column-break-inside: avoid;
+    margin: 5px;
+    max-height: 20rem;
+    padding-top: 3%;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+    max-width: 10rem;
+    max-height: 10rem;
+    text-align: center;
+}
+
+#carouselExampleSlidesOnly {
+    width: 600px;
+    margin: auto;
+}
+
+p {
+    width: 80%;
+    text-align: justify;
+}
+
+body {
+    background-color: #EEDBCF;
+color:rgba(55,88,120,0.7);
+
+}
+
+.btn-info {
+    background-color: #395878;
+    border:none;
+}
+
+.btn-info.focus:hover, .btn-info:focus, .btn-info:hover {
+    background-color:rgba(55,88,120,0.7);
+    box-shadow: none;
+}
+
+
+.btn-info:focus {
+    background-color: #395878;
+}
+section {
+    margin: auto;
+    padding: 3%;
+    width: 75%;
+
+}
+
+#main {
+    margin-top: 2%;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
+}
+
+h1 {
+    margin: auto;
+    color: #395878;
+    font-size: 100px;
+    font-family: "Edwardian Script ITC", Arial, serif;
+}
+
+h2 {
+    color: #395878;
+    font-family: "Open Sans", sans-serif;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+ .nav-pills .nav-link.active {
+    background-color: rgba(0,0,0,0.1);
+
+     color: #395878;
+}
+.nav-pills .nav-link {
+    color: #395878;
+}
+.carousel {
+    opacity: 0.8;
+    border: 4px double #395878;
+    box-shadow: 1px 1px 4px grey;
+}
+
+
+ .carousel-item {
+
+     padding: 3px;
+
+ }
+
+ footer {
+     margin-top: 3%;
+     font-size: 8px;
+     color: rgba(0,0,0,0.7);
+ }
+
